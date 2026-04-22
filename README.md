@@ -2,14 +2,14 @@
 
 A Vision-integrated Human-Machine Interface (HMI) that enables real-time, contactless control of a 6-degree-of-freedom robotic manipulator. Developed as part of the **TA212: Manufacturing Processes** course at **IIT Kanpur**, this project replaces traditional hardware controllers with a high-speed Computer Vision pipeline.
 
-## 📌 Project Highlights
+## Project Highlights
 * **Objective:** Developing a MediaPipe-based system to control 6-DoF robotic arms, evolving from manual hardware interfaces.
 * **Core Approach:** * Implemented kinematic mapping and EMA filtering in Python to optimize real-time servo actuation.
   * Integrated MediaPipe frameworks with Arduino and PCA9685 drivers to translate hand landmarks into precise motion.
 * **System Impact:** * Established low-latency communication using serial protocols to synchronize software with hardware.
   * Validated robustness across variable lighting, highlighting Computer Vision's viability for contactless manipulation.
 
-## 🚀 System Architecture & Software Pipeline
+## System Architecture & Software Pipeline
 
 ### 1. Computer Vision & Mapping (Python)
 * **Landmark Detection:** Utilizes MediaPipe to extract 21 3D hand landmarks in real-time.
@@ -24,12 +24,12 @@ A Vision-integrated Human-Machine Interface (HMI) that enables real-time, contac
 * **Memory-Efficient Parsing:** The Arduino firmware utilizes `strtok` for fast, lightweight parsing of incoming serial strings.
 * **PWM Actuation:** Manages a PCA9685 16-Channel 12-bit PWM driver to accurately position the 6 independently controlled servos.
 
-## 💻 Tech Stack
+## Tech Stack
 * **Languages:** Python 3, Embedded C++
 * **Libraries:** OpenCV, MediaPipe, PySerial, Adafruit PWMServoDriver
 * **Hardware Interfaced:** Arduino Uno, PCA9685, 6x Actuators (MG996R & SG90)
 
-## 📂 Repository Structure
+## Repository Structure
 ```text
 Gesture-Controlled-Arm/
 ├── README.md                # Project documentation and setup guide
