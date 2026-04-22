@@ -4,9 +4,11 @@ A Vision-integrated Human-Machine Interface (HMI) that enables real-time, contac
 
 ## Project Highlights
 * **Objective:** Developing a MediaPipe-based system to control 6-DoF robotic arms, evolving from manual hardware interfaces.
-* **Core Approach:** * Implemented kinematic mapping and EMA filtering in Python to optimize real-time servo actuation.
+* **Core Approach:**
+  * Implemented kinematic mapping and EMA filtering in Python to optimize real-time servo actuation.
   * Integrated MediaPipe frameworks with Arduino and PCA9685 drivers to translate hand landmarks into precise motion.
-* **System Impact:** * Established low-latency communication using serial protocols to synchronize software with hardware.
+* **System Impact:**
+  *  Established low-latency communication using serial protocols to synchronize software with hardware.
   * Validated robustness across variable lighting, highlighting Computer Vision's viability for contactless manipulation.
 
 ## System Architecture & Software Pipeline
